@@ -1,0 +1,12 @@
+#A string can use certain specifications and subsequently, the format method can be called to substitute those 
+#specifications with corresponding arguments to the format method.
+
+age = 33
+name = "John"
+birthday = "September"
+favFilm = "James Bond"
+
+print "{0} was {1} years old when he wrote this book, he \
+published it on his birthday in {2}.".format(name, age, birthday)
+print "Why is {0} playing with that python?".format(name)
+print '''{0} said that his favourite film is "{1}".'''.format(name, favFilm)
